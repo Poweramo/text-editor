@@ -12,10 +12,17 @@ body {
 
 #text-container {
 	height: calc(100% - 20px);
+	width: calc(100% - 20px);
 	border: 1px solid black;
 	margin: 10px;
 	padding: 10px;
 	word-break: break-all;
+	resize: none;
+	outline: none;
+}
+
+#text-container:focus {
+	border: 5px solid black;
 }
 
 #text-cursor {
