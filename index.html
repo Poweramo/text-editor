@@ -7,7 +7,16 @@
 		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
-		<textarea name="html-article" id="text-container" autofocus></textarea>
+		<form action="post-article.php" method="post">
+		<textarea name="html-article" id="text-container" autofocus wrap="hard"></textarea>
+		<div class="edit-panel">
+
+			<div class="tools">
+
+			</div>
+		<input type="submit" value="Envoyer l'article" />
+		</div>
+		</form>
 		<script src="./index.js"></script>
 	</body>
 </html>
